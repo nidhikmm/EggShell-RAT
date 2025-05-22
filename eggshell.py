@@ -118,6 +118,11 @@ def menuExit(): #4
     exit()
 
 def main():
+    """
+    Main loop of the program. Continuously displays the menu until interrupted.
+    Handles KeyboardInterrupt (Ctrl+C): if the global variable ONMENU is set to 1,
+    prints an empty line and exits the program.
+    """
     global ONMENU
     while 1:
         try:
