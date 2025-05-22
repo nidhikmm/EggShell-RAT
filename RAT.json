@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Launch EggShell Server",
+      "program": "${workspaceFolder}/${input:pythonFile}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "pythonFile",
+      "type": "pickString",
+      "description": "Select the Python file to launch",
+      "options": [
+        "eggshell.py",
+        "modules/commands/iOS/ios_alert.py",
+        "modules/commands/iOS/ios_backcam.py",
+        "modules/commands/iOS/ios_battery.py",
+        "modules/commands/iOS/ios_cd.py",
+        "modules/commands/iOS/ios_dial.py",
+        "modules/commands/iOS/ios_download.py",
+        "modules/commands/iOS/ios_frontcam.py",
+        "modules/commands/iOS/ios_getcontacts.py",
+        "modules/commands/iOS/ios_getnotes.py",
+        "modules/commands/iOS/ios_getsms.py",
+        "modules/commands/iOS/ios_getvol.py",
+        "modules/encryption/ESEncryptor.py",
+        "modules/encryption/PKCS7Encoder.py",
+        "modules/helper/helper.py",
+        "modules/server/server.py",
+        "modules/shell/shell.py"
+      ]
+    }
+  ]
+}
