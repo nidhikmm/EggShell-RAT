@@ -36,12 +36,12 @@ With the prompt command, we can have a password pop up information retrieval + b
 [![](http://lucasjackson.me/images/eggshell/2.2.1/osximessage.png)](https://T.me/The404Hacking)
 
 ## Interacting With Multiple Sessions
-MultiSession gives us easy access to interacting and managing multiple sessions
+Multiple sessions give us easy access to interacting with and managing several connections
 
-[![](http://lucasjackson.me/images/eggshell/multisessioninteractpictures.png)](https://T.me/The404Hackingl)
+[![](http://lucasjackson.me/images/eggshell/multisessioninteractpictures.png)](https://T.me/The404Hacking)
 
 ## Featured
-Featured in EverythingApplePro's video demonstrating an iOS 9.3.3 Webkit vulnerability used to run EggShell
+Featured in a popular YouTube video demonstrating an iOS 9.3.3 Webkit vulnerability used to run EggShell
 
 [![EverythingApplePro](http://lucasjackson.me/images/eggshell/2.2.1/featureeep.png)](https://www.youtube.com/embed/iko0bCVW-zk?start=209)
 
@@ -99,7 +99,7 @@ python eggshell.py
 * **next**           : next track
 * **prev**           : previous track
 * **togglemute**     : programatically toggles silence switch
-* **ismuted**        : check if we are silenced or not
+* **ismuted**        : check if the device is muted
 * **islocked**       : check if device is locked
 * **getpasscode**    : log successfull passcode attempts
 * **unlock**         : unlock with passcode
